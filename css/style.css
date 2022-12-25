@@ -809,6 +809,19 @@
   .scroll-top.open {
     bottom: 40px;
   }
+
+  @media only screen and (max-width: 600px) {
+  
+      img#logopng {
+        margin-left: 33px;
+        margin-top: 110px;
+      }
+      .bg-white{
+          margin-top: -59px;
+        
+  }
+}
+  
   
   .sec-title{
     position: relative;
@@ -816,6 +829,17 @@
     margin-bottom: 50px;
   }
   
+  .sec-title .abc{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding-top: 28px;
+    z-index: 1;
+  }
   .sec-title .top-title{
     position: relative;
     display: inline-block;
